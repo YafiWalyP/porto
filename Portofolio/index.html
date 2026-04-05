@@ -147,7 +147,7 @@
             <div class="char-card flex-none w-72 md:w-80 h-[450px] bg-black border border-gray-800 overflow-hidden relative snap-center group">
                 <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent z-10"></div>
                 <div class="absolute inset-0 w-full h-full bg-gray-800 flex items-center justify-center transition duration-700">
-                    <img src="kazuha.png" alt="Kazuha" class="w-full h-full object-cover">
+                    <img src="foto-kazuha.png" alt="Kazuha" class="w-full h-full object-cover">
                 </div>
                 <div class="absolute bottom-0 left-0 right-0 p-6 z-20">
                     <h3 class="text-2xl font-creed font-bold text-gray-200 group-hover:text-red-500 transition-colors">Kazuha</h3>
@@ -376,6 +376,31 @@
 
         <div class="w-full max-w-7xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 mb-20 fade-in-section">
             
+            <div class="w-full bg-black border border-gray-800 p-6 relative group hover:border-red-600 transition duration-500 hover:-translate-y-2 hover:shadow-[0_0_20px_-5px_rgba(185,28,28,0.5)]">
+                <div class="absolute inset-0 bg-[linear-gradient(rgba(185,28,28,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(185,28,28,0.05)_1px,transparent_1px)] bg-[size:10px_10px] pointer-events-none opacity-50 z-0"></div>
+                
+                <div class="relative z-10 flex flex-col h-full">
+                    <div class="flex justify-between items-start mb-4">
+                        <p class="text-red-700 font-mono text-[10px] tracking-widest">STATUS: IN PROGRESS</p>
+                        <span class="text-xs text-gray-500 font-mono">2026</span>
+                    </div>
+                    <h3 class="text-xl font-creed font-bold text-gray-200 group-hover:text-white transition-colors uppercase tracking-widest mb-3">Sistem Informasi Sekolah</h3>
+                    
+                    <div class="w-full aspect-video bg-gray-900 border border-gray-700 mb-4 overflow-hidden relative cursor-zoom-in group-hover:border-red-900/50 transition duration-500">
+                        <img src="cyber-img1.jpg" alt="Sistem Informasi Sekolah" class="w-full h-full object-cover transition duration-500">
+                        <div class="absolute inset-0 bg-black/40 group-hover:bg-transparent transition duration-500 pointer-events-none"></div>
+                    </div>
+
+                    <p class="text-sm text-gray-400 mb-6 leading-relaxed flex-grow">
+                        Pengembangan arsitektur web untuk penjadwalan dan manajemen data sekolah. Dirancang menggunakan integrasi database terstruktur dan antarmuka kalender dinamis.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mt-auto pt-4 border-t border-gray-800/80">
+                        <span class="text-[9px] border border-gray-700 bg-gray-900 px-2 py-1 text-gray-400 uppercase tracking-widest">Tailwind CSS</span>
+                        <span class="text-[9px] border border-gray-700 bg-gray-900 px-2 py-1 text-gray-400 uppercase tracking-widest">FullCalendar.js</span>
+                    </div>
+                </div>
+            </div>
+
             <div class="w-full bg-black border border-gray-800 p-6 relative group hover:border-red-600 transition duration-500 hover:-translate-y-2 hover:shadow-[0_0_20px_-5px_rgba(185,28,28,0.5)]">
                 <div class="absolute inset-0 bg-[linear-gradient(rgba(185,28,28,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(185,28,28,0.05)_1px,transparent_1px)] bg-[size:10px_10px] pointer-events-none opacity-50 z-0"></div>
                 
@@ -650,11 +675,22 @@
         <div class="w-full max-w-4xl bg-gray-950/50 border border-gray-800 p-6 rounded-lg fade-in-section">
             <p class="text-center text-gray-500 font-mono text-xs mb-6 uppercase tracking-widest">Connect to GitHub database to leave intelligence data.</p>
             
-            <div id="comment-container" class="min-h-[200px] flex items-center justify-center border-2 border-dashed border-gray-800">
-                <div class="text-center">
-                    <p class="text-gray-400 font-creed text-sm">Giscus Integration Ready</p>
-                    <p class="text-[10px] text-gray-600 mt-2">Waiting for Repository Authorization...</p>
-                </div>
+            <div id="comment-container" class="w-full min-h-[200px]">
+                <script src="https://giscus.app/client.js"
+                        data-repo="YafiWalyP/porto"
+                        data-repo-id="R_kgDOR6I7qA"
+                        data-category="General"
+                        data-category-id="DIC_kwDOR6I7qM4C6Fcn"
+                        data-mapping="url"
+                        data-strict="0"
+                        data-reactions-enabled="1"
+                        data-emit-metadata="0"
+                        data-input-position="bottom"
+                        data-theme="dark_tritanopia"
+                        data-lang="id"
+                        crossorigin="anonymous"
+                        async>
+                </script>
             </div>
         </div>
         
