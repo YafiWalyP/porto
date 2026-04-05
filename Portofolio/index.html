@@ -676,10 +676,11 @@
     </footer>
 
     <div id="lightbox-modal" class="fixed inset-0 z-[100] bg-black/95 hidden flex items-center justify-center opacity-0 transition-opacity duration-300 backdrop-blur-sm">
-        <button id="lightbox-close" class="absolute top-6 right-6 md:top-10 md:right-10 text-white text-4xl md:text-5xl hover:text-red-500 transition z-50">&times;</button>
+        <button id="lightbox-close" class="fixed top-6 right-6 md:top-10 md:right-10 text-white text-5xl md:text-6xl hover:text-red-500 transition z-[110] p-2">&times;</button>
+        
         <div class="relative w-full max-w-6xl max-h-[90vh] flex justify-center items-center p-4" id="lightbox-content">
-            <img id="lightbox-img" src="" class="hidden max-w-full max-h-[85vh] object-contain rounded shadow-[0_0_40px_rgba(185,28,28,0.6)] border border-red-900/50">
-            <video id="lightbox-video" src="" controls autoplay loop playsinline class="hidden max-w-full max-h-[85vh] object-contain rounded shadow-[0_0_40px_rgba(185,28,28,0.6)] border border-red-900/50"></video>
+            <img id="lightbox-img" src="" class="hidden max-w-full max-h-[70vh] md:max-h-[85vh] object-contain rounded shadow-[0_0_40px_rgba(185,28,28,0.6)] border border-red-900/50">
+            <video id="lightbox-video" src="" controls autoplay loop playsinline class="hidden max-w-full max-h-[70vh] md:max-h-[85vh] object-contain rounded shadow-[0_0_40px_rgba(185,28,28,0.6)] border border-red-900/50"></video>
         </div>
     </div>
 
